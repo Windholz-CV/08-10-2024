@@ -1,0 +1,55 @@
+/*selectores{estilos}
+tipos de selectores
+1_ etiquetas: implementadas para todos los tipo de etiquetas
+2_ clases: .+ nombre determina a un objeto que pertenece a una determinada clase que estilo tendra. parte de un grupo de etiquetas que cumple con una condicion
+3_ ID #+ Nombre del Id que pertenece a una etiquera: determina la diferencia de una etiqueta en particular*/
+body{
+    background-color: pink;
+}
+
+.Fondoverde{
+    background-color: green;
+}
+
+h2 { background-color: aqua;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+#Tituloprincipal{
+    background-color: rgb(150, 350, 800);
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+}
+
+button{
+    display:block;
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.Botongris{
+    background-color: gray;
+}
+
+#Perro{
+    width:300px ;
+}
+
+.Texto2{
+    width: 25%;
+    height: 40vh ;
+}
+
+#Textounico{
+    background-image: url(./freepik__upload__45762.jpeg)
+}
+
+ul{
+    background-color: blueviolet;
+    width: 50%;
+}
+
+li{
+    background-color: chocolate;
+    
+}
